@@ -944,7 +944,8 @@ for sim_num in range(number_of_simulations):
                    100 * ((cumul_sims_FSD[sim_num][2] + cumul_sims_FSD[sim_num][3]) / N)))
     to_save_csv = np.vstack((cumul_sims_EQ[sim_num][0][first_EQ:],
                    100 * ((cumul_sims_EQ[sim_num][2][first_EQ:] + cumul_sims_EQ[sim_num][3][first_EQ:]) / N)))
-    np.savetxt(directory_plots + str(sim_num) + ".csv", to_save_csv, delimiter=",")
+    np.savetxt(directory_plots + str(sim_num) + "_FSD.csv", to_save_csv, delimiter=",")
+    np.savetxt(directory_plots + str(sim_num) + "_EQ.csv", to_save_csv, delimiter=",")
 
 """# Plot percentage of houses infected and severity of infection for single simulation of involuntary fusing"""
 
