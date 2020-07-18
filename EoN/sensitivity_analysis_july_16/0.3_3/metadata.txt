@@ -1,0 +1,12 @@
+SD continued; FS %: 7.085 [2.95, 25.7]
+involuntary fusing; FS %: 7.435 [2.95, 30.78]
+paired difference FS %: 0.0 [-13.48, 12.3]
+Network parameters -------------------- 
+Rt under SD: 0.8
+Rt under easing: 1.2
+% households fused initial: 3.33
+SEIR epidemic parameters ------------ 
+R0: 2.5; E to I: 5.0 days; I to R: 8.0 days
+% prev. @ SD intervention: 0.49 [0.32, 0.8]
+% prev. @ easing: 3.74 [3.11, 4.62]
+% prev. @ evictions: 4.48 [3.43, 6.35]
